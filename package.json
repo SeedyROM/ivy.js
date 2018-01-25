@@ -1,0 +1,27 @@
+{
+  "name": "ivy",
+  "version": "0.0.1",
+  "description": "A purely function V in an MVC stack.",
+  "main": "src/ivy/index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 lib/ivy/index.js -o build/ivy.js",
+    "start": "webpack-dev-server",
+    "webpack": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-h-jsx": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "immutable": "^3.8.2",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
